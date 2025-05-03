@@ -1,6 +1,8 @@
-# envish: Search for environment variables in Rust
+# envish
 
 `envish` is a Rust library for discovering, iterating and grouping environment variables.
+
+![Code example](https://github.com/cariad/envish/blob/main/docs/example.png)
 
 ## Installation
 
@@ -10,7 +12,7 @@ cargo add envish
 
 ## Examples
 
-### Grouping environment variables
+### Group related environment variables
 
 `envish::group_by` gets a grouped collection of related environment variables.
 
@@ -37,7 +39,7 @@ assert_eq!(charlie["AGE"], "42");
 assert_eq!(charlie["JOB"], "jester");
 ```
 
-### Search environment variables by regular expression
+### Search by regular expression
 
 `envish::search()` returns an iterator over all environment variables with names that match a given expression.
 
@@ -62,7 +64,7 @@ let m = matches.next();
 assert!(m.is_none());
 ```
 
-### Search environment variables by prefix
+### Search by prefix
 
 `envish::with_prefix()` returns an iterator over all environment variables with the given prefix.
 
