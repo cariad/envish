@@ -2,7 +2,7 @@
 
 `envish` is a Rust library for discovering, iterating and grouping environment variables.
 
-![Code example](https://github.com/cariad/envish/blob/main/docs/example.png)
+![Code example](https://raw.githubusercontent.com/cariad/envish/refs/heads/main/docs/example.png)
 
 ## Installation
 
