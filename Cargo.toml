@@ -1,0 +1,12 @@
+[package]
+authors = ["Cariad Eccleston <cariad@cariad.earth>"]
+description = "Search for environment variables"
+edition = "2021"
+license = "MIT"
+name = "envish"
+readme = "README.md"
+repository = "https://github.com/cariad/envish"
+version = "1.0.0-alpha.0"
+
+[dependencies]
+regex = "1.11.1"
